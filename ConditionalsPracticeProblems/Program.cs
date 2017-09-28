@@ -46,34 +46,51 @@ namespace ConditionalsPracticeProblems
             //        break;
             //}
 
-            Console.WriteLine("Enter a whole number.");
-            int firstValue = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter a whole number.");
+            //int firstValue = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter a second whole number.");
-            int secondValue = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter a second whole number.");
+            //int secondValue = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter a third whole number.");
-            int thirdValue = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter a third whole number.");
+            //int thirdValue = int.Parse(Console.ReadLine());
 
-            if (firstValue > secondValue)
-            {
-                if (firstValue > thirdValue)
-                {
-                    Console.WriteLine(firstValue + " is the larger value.");
-                }
-                else
-                {
-                    Console.WriteLine(thirdValue + " is the largest value.");
-                }
-            }
-            else if (secondValue > firstValue)
-            {
-                Console.WriteLine(secondValue + " is the larger value.");
-            }
-            else
-            {
-                Console.WriteLine("Go back to start.");
-            }
+            //if (firstValue > secondValue)
+            //{
+            //    if (firstValue > thirdValue)
+            //    {
+            //        Console.WriteLine(firstValue + " is the larger value.");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(thirdValue + " is the largest value.");
+            //    }
+            //}
+            //else if (secondValue > firstValue)
+            //{
+            //    Console.WriteLine(secondValue + " is the larger value.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Go back to start.");
+            //}
+
+
+            Console.WriteLine("Please enter four whole numbers, one at a time.");
+            int firstNum = int.Parse(Console.ReadLine());
+            int secondNum = int.Parse(Console.ReadLine());
+            int thirdNum = int.Parse(Console.ReadLine());
+            int fourthNum = int.Parse(Console.ReadLine());
+
+            // double sum = firstNum + secondNum + thirdNum + fourthNum;
+            // Console.WriteLine("The average is " + (sum / 4));
+
+            int sum = firstNum + secondNum + thirdNum + fourthNum;
+            double mean = sum / 4d;
+
+           
+
+
 
 
 
